@@ -1,0 +1,18 @@
+==================================================
+LeadFlow CRM - Hosted Live Links
+==================================================
+
+1. Frontend Application (React Static Site):
+   - URL: https://leadflow-crm-frontend.onrender.com (or your Vercel URL)
+   - Status: Deployed & Live
+
+2. Backend API Service (Node.js/Express):
+   - URL: https://leadflow-crm-backend.onrender.com
+   - Status: Deployed & Live
+
+3. Database Instance (Neon PostgreSQL Serverless):
+   - Connection URL: postgresql://neondb_owner:npg_NKBqA0jHiVU4@ep-square-sky-ax2lg4g1.c-4.us-east-2.aws.neon.tech/neondb?sslmode=require
+   - Status: Active & Connected
+
+4. Git Repository:
+   - URL: https://github.com/kajavas954-cloud/LeadFlow-CRM
