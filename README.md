@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # LeadFlow CRM
 
 LeadFlow CRM is a production-quality, lightweight Lead Management Platform designed for small startup sales teams. It feels like software tools like Linear, HubSpot, or Pipedrive.
@@ -210,3 +211,7 @@ Key routes summary:
 2. Set Root Directory: `frontend`.
 3. Build Settings will auto-detect Vite. Ensure environment variable `VITE_API_URL` points to your backend Render URL (e.g., `https://your-backend.onrender.com/api`).
 4. Click Deploy.
+=======
+# LeadFlow-CRM
+LeadFlow CRM is an AI-powered lead management platform built with React, TypeScript, Node.js, Express, Prisma, and PostgreSQL. It features secure authentication, role-based access, lead tracking, pipeline management, analytics dashboards, and AI tools for lead summaries, email generation, intelligent search, and sales insights.
+>>>>>>> ef6f1069aee4c30106e9af6ff0abfdaf4aa57792
