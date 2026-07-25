@@ -1,5 +1,5 @@
 import { UserRepository } from '../repositories/user.repository.js';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import { JWT_SECRET, JWT_REFRESH_SECRET, ACCESS_TOKEN_EXPIRY, REFRESH_TOKEN_EXPIRY } from '../config/jwt.js';
 import { Role, User } from '@prisma/client';

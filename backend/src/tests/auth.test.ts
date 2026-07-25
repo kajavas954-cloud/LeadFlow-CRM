@@ -3,7 +3,7 @@ import request from 'supertest';
 import app from '../app.js';
 import { mockPrisma } from './setup.js';
 import { Role } from '@prisma/client';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 
 describe('Auth & Role Authorization API Tests', () => {
