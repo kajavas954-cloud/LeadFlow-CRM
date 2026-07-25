@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    @apply h-full font-sans antialiased;
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-900 dark:bg-dark-950 dark:text-slate-100 transition-colors duration-300;
+  }
+
+  /* Custom Scrollbar Styles */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-slate-200 dark:bg-dark-800 rounded-full hover:bg-slate-300 dark:hover:bg-dark-700 transition-all;
+  }
+}
+
+/* Glassmorphism utility classes */
+.glass-panel {
+  @apply backdrop-blur-md bg-white/70 border border-slate-200/80 shadow-premium;
+}
+
+.dark .glass-panel {
+  @apply backdrop-blur-md bg-dark-900/60 border-dark-800/80 shadow-none;
+}
+
+/* Linear-style premium card style */
+.premium-card {
+  @apply bg-white dark:bg-dark-900 border border-slate-200/60 dark:border-dark-800/80 rounded-xl shadow-premium transition-all duration-300;
+}
+
+.premium-card:hover {
+  @apply border-slate-300 dark:border-dark-700/80 shadow-premium-hover;
+}
+
+/* Input placeholder styles */
+input::placeholder, textarea::placeholder {
+  @apply text-slate-400 dark:text-dark-500;
+}

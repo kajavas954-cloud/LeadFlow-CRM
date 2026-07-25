@@ -1,0 +1,19 @@
+import { AnalyticsService } from '../services/analytics.service.js';
+const analyticsService = new AnalyticsService();
+export class AnalyticsController {
+    async getAnalyticsSummary(req, res, next) {
+        try {
+            const summary = await analyticsService.getAnalyticsSummary();
+            res.status(200).json({
+                success: true,
+                data: summary,
+            });
+        }
+        catch (error) {
+            res.status(500).json({
+                success: false,
+                message: error.message || 'Failed to fetch analytics summary',
+            });
+        }
+    }
+}
